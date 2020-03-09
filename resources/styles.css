@@ -1,14 +1,19 @@
 nav {
     display: flex;
-    width: auto;
     border: 1px solid red;
     justify-content: space-between;
     align-items: center;
+    color: gray;
+    background-color: black;
 }
 
 .nav-icon {
     max-width: 30px;
-    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-icon1 {
+    margin-right: 20px;
 }
 
 ul {
@@ -18,4 +23,8 @@ ul {
 .nav-blocks {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    color: white;
 }
