@@ -1,7 +1,21 @@
 nav {
     display: flex;
+    width: auto;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-icon {
     max-width: 30px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-blocks {
+    display: flex;
+    justify-content: space-between;
 }
