@@ -1,6 +1,5 @@
 nav {
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
     align-items: center;
     color: gray;
@@ -14,6 +13,20 @@ nav {
 
 .nav-icon1 {
     margin-right: 20px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.nav-button {
+    display: flex;
+    background-color: #063ECA;
+    border: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 8px;
+    justify-content: space-around;
+    width: 120px;
 }
 
 ul {
@@ -26,5 +39,53 @@ ul {
 }
 
 .logo {
+    color: white;
+}
+
+.center-block {
+    display: flex;
+    align-items: center;
+}
+
+.button-size {
+    border-radius: 30px;
+    height: 55px;
+    width: 55px;
+    background-color: #0057FF;
+    margin-left: 20px;
+}
+
+.plus {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+.button-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended {
+    background-image: url(./images/image1.jpg);
+    border: 3px solid blue;
+}
+
+.recommendation-div {
+    background-image: url(./images/image1.jpg);
+    width: 55px;
+    height: 40px;
+}
+
+.wip-blocks {
+    display: flex;
+}
+
+.star {
+    font-size: 15px;
     color: white;
 }
