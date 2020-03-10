@@ -2,13 +2,23 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: gray;
-    background-color: black;
+    color:white;
+    background-color: #D45749;
+    height: 60px;
 }
 
 .nav-icon {
-    max-width: 30px;
-    margin-right: 20px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.nav-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icon a:hover {
+    color: gray;
 }
 
 .nav-icon1 {
@@ -65,27 +75,70 @@ ul {
     margin-left: 20px;
 }
 
-.button-items {
-    display: flex;
-    justify-content: space-between;
-}
-
-.recommended {
-    background-image: url(./images/image1.jpg);
-    border: 3px solid blue;
-}
-
-.recommendation-div {
-    background-image: url(./images/image1.jpg);
-    width: 55px;
-    height: 40px;
+.center-search {
+    height: 150px;
+    /* background-color: #BBBFC6; */
+    background-color: rgba(128, 127, 127, 0.582);
+    border-radius: 10px;
+    width: 36%;
 }
 
 .wip-blocks {
     display: flex;
 }
 
-.star {
-    font-size: 15px;
+.title-center {
     color: white;
+}
+.center-div {
+    background-image: url(./images/architecture-beautiful-home-building-class-280229.jpg);
+    border: 1px solid transparent;
+}
+
+.center-box {
+    margin: 150px auto;
+    text-align: center;
+}
+
+.center-search {
+    margin-left: 32%;
+}
+
+.search-btn {
+    background-color: #D45648;
+    color: white;
+    text-align: center;
+    border: 0;
+    margin-left: 0;
+    width: auto;
+}
+
+.search-form {
+    display: flex;
+    justify-content: unset;
+    height: 30px;
+}
+
+.search {
+    width: 100%;
+}
+
+.search-title {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.form-cent {
+    padding: 45px;
+}
+
+.steps {
+    background-color: #CCD0D7;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.step-block {
+    padding: 45px;
 }
