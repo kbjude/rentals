@@ -77,7 +77,6 @@ ul {
 
 .center-search {
     height: 150px;
-    /* background-color: #BBBFC6; */
     background-color: rgba(128, 127, 127, 0.582);
     border-radius: 10px;
     width: 36%;
@@ -230,8 +229,6 @@ ul {
     align-items: center;
     border-bottom: 1px solid #151515;
     border-top: 1px solid #151515;
-    /* padding-top: 4px;
-    padding-bottom: 4px; */
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -243,14 +240,11 @@ ul {
     align-items: center;
     border-bottom: 1px solid #151515;
     border-top: 1px solid #151515;
-    /* padding-top: 4px;
-    padding-bottom: 4px; */
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .ft-item1 {
-    /* margin-left: 8px; */
     padding: 12px;
 }
 
