@@ -216,20 +216,62 @@ ul {
     font-size: 15px;
 }
 
-footer {
+.footer-top {
     display: flex;
     background-color: black;
     color: white;
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 .ft-block1 {
     display: flex;
-    padding: 5px;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #151515;
+    border-top: 1px solid #151515;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .ft-block2 {
     display: flex;
-    padding: 5px;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #151515;
+    border-top: 1px solid #151515;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
+.ft-item1 {
+    margin-left: 8px;
+}
+
+.heli {
+    background-image: url(./images/blue-and-white-helicopter-41174.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ft-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #151515;
+    background-color: black;
+}
+
+.home1 {
+    color: white;
+}
+
+.footer-icon {
+    align-self: center;
+    padding: 10px;
+}
