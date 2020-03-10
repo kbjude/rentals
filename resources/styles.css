@@ -275,3 +275,42 @@ ul {
     align-self: center;
     padding: 10px;
 }
+
+.labels {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 30px;
+    align-self: center;
+}
+
+.name {
+    padding: 40px;
+}
+
+
+.form-item {
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.submit {
+    background-color: #71839F;
+    margin-left: 2px;
+    height: 25px;
+}
+
+.reset {
+    background-color: #DACABF;
+    margin-left: 2px;
+    height: 25px;
+}
+
+.last {
+    height: 30px;
+    margin: 48px;
+
+}
