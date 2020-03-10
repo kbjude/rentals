@@ -142,3 +142,33 @@ ul {
 .step-block {
     padding: 45px;
 }
+
+.system-manual {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.house-search {
+    display: flex;
+    text-align: center;
+    width: 20%;
+}
+
+.icon {
+    font-size: 22px;
+    text-align: center;
+}
+
+.search-titles {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.subtittles {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
