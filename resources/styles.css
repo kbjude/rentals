@@ -279,3 +279,61 @@ ul {
 footer {
     background-color: black;
 }
+
+.footer-title {
+    color: white;
+    text-align: center;
+}
+
+.footer-search-btn {
+    background-color: #444444;
+    color: white;
+}
+
+.footer-middle {
+    display: flex;
+}
+
+.footer-blk1 {
+    display: flex;
+    padding-left: 70px;
+    width: 30%;
+}
+
+.footer-title {
+    padding-bottom: 15px;
+}
+
+.search-ft {
+    padding-left: 100px;
+    background-color: black;
+    border: 1px solid #151515;
+}
+
+.footer-blk2 {
+    margin-left: 40px;
+    width: 30%;
+}
+
+.contacts {
+    color: white;
+}
+
+.footer-blk3 {
+    width: 30%;
+}
+
+.footer-lower {
+    display: flex;
+    background-color: #181818;
+    color: rgb(170, 167, 167);
+    justify-content: space-between;
+}
+
+.sm-icon {
+    display: flex;
+}
+
+.ss-icon {
+    padding-left: 10px;
+}
