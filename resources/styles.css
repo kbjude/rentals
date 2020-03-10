@@ -254,12 +254,20 @@ ul {
     background-size: cover;
 }
 
+.stress {
+    background-image: url(./images/modern-building-against-sky-323780.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .ft-btn {
     width: 40px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid #151515;
     background-color: black;
+    
 }
 
 .home1 {
