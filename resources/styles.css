@@ -172,3 +172,64 @@ ul {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.article-image {
+    border-radius: 73px;
+    width: 150px;
+    height: 150px;
+}
+
+.mid-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.btn2 {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.mid2 {
+    background: #98A4A5;
+}
+
+.mid1 {
+    background-color: #E27F66;
+}
+
+.mid3 {
+    background-color: #509BD7;
+}
+
+.btn1 {
+    color: #E27F66;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.home {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    /* justify-content: space-around; */
+}
+
+.ft-block1 {
+    display: flex;
+    padding: 5px;
+}
+
+.ft-block2 {
+    display: flex;
+    padding: 5px;
+}
+
