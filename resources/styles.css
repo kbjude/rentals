@@ -285,6 +285,7 @@ ul {
     background-color: #EEEEEE;
     padding: 30px;
     align-self: center;
+    padding-left:  320px;
 }
 
 .name {
@@ -313,4 +314,16 @@ ul {
     height: 30px;
     margin: 48px;
 
+}
+
+.main-sect {
+    background-color: #EEEEEE;
+}
+
+.main-h {
+    text-align: center;
+}
+
+.nav-search {
+    margin-bottom: 100px;
 }
