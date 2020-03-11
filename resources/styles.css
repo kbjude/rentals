@@ -1,3 +1,46 @@
+@media only screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+
+    .description, 
+    .steps,
+    .mid-section,
+    .lower-section,
+    footer {
+        display: none;
+    }
+
+    .nav-blocks {
+        width: 100%;
+    }
+
+    .center-div {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+    .footer-small-scrn {
+        display: none;
+    }
+    .footer-title {
+        font-size: 20px;
+    }
+    .footer-img {
+        width: 40%;
+    }
+    .subscribe-bottom {
+        text-align: center;
+    }
+    .trade-mark {
+        font-size: 13px;
+    }
+    .icons-f {
+        font-size: 30px;
+    }
+  }
+
 nav {
     display: flex;
     justify-content: space-between;
