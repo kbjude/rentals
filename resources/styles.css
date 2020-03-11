@@ -315,14 +315,17 @@ footer {
 .footer-blk2 {
     margin-left: 40px;
     width: 30%;
+    text-align: center;
 }
 
 .contacts {
-    color: white;
+    color: #ACACAC;
+    font-size: 10px;
 }
 
 .footer-blk3 {
     width: 30%;
+    text-align: center;
 }
 
 .footer-lower {
@@ -339,3 +342,5 @@ footer {
 .ss-icon {
     padding-left: 10px;
 }
+
+.contacts
