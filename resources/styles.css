@@ -1,45 +1,8 @@
-@media only screen and (max-width: 768px) {
-    .logo {
-        text-align: center;
-    }
-
-    .description, 
-    .steps,
-    .mid-section,
-    .lower-section,
-    footer {
-        display: none;
-    }
-
-    .nav-blocks {
-        width: 100%;
-    }
-
-    .center-div {
-        width: 100%;
-    }
-  }
-
-  @media only screen and (min-width: 769px) {
-    .footer-small-scrn {
-        display: none;
-    }
-    .footer-title {
-        font-size: 20px;
-    }
-    .footer-img {
-        width: 40%;
-    }
-    .subscribe-bottom {
-        text-align: center;
-    }
-    .trade-mark {
-        font-size: 13px;
-    }
-    .icons-f {
-        font-size: 30px;
-    }
-  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 nav {
     display: flex;
@@ -386,4 +349,58 @@ footer {
     padding-left: 10px;
 }
 
-.contacts
+@media only screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+
+    .description, 
+    .steps,
+    .mid-section,
+    .lower-section,
+    footer {
+        display: none;
+    }
+
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+    }
+
+    .center-search {
+        display: inline-block;
+        align-self: center;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid red;
+    }
+
+    .form-cent {
+        width: 100%;
+        padding: 45px 0;
+    }
+
+    .search-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search,
+    .search-btn {
+        width: 100%;
+        margin: 3px 10px;
+        padding: 5px;
+        height: 20px;
+    }
+
+    .search-title {
+        width: 50%;
+        text-align: left;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+     {
+
+  }
