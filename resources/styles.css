@@ -350,12 +350,12 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .logo {
-        text-align: center;
+    
+    nav {
+        flex-direction: column;
     }
 
     .description, 
-    .steps,
     .mid-section,
     .lower-section,
     footer {
@@ -365,13 +365,14 @@ footer {
     .nav-blocks,
     .center-div {
         width: 100%;
+        justify-content: space-evenly;
     }
 
     .center-search {
         display: inline-block;
         align-self: center;
         width: 100%;
-        margin: 10px;
+        margin: 0;
         padding: 10px;
         border: 1px solid red;
     }
@@ -389,15 +390,19 @@ footer {
     .search,
     .search-btn {
         width: 100%;
-        margin: 3px 10px;
-        padding: 5px;
-        height: 20px;
+        margin: 3px 0;
+        padding: 10px 5px;
     }
 
     .search-title {
         width: 50%;
         text-align: left;
     }
+
+    .steps {
+        align-self: center;
+    }
+
   }
 
   @media only screen and (min-width: 769px) {
