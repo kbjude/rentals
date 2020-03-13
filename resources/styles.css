@@ -333,6 +333,10 @@ footer {
     font-size: 10px;
 }
 
+.email {
+    color: red;
+}
+
 .footer-blk3 {
     width: 30%;
     text-align: center;
