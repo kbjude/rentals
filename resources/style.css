@@ -59,6 +59,7 @@ ul {
     border: 0;
     margin-left: 0;
     width: auto;
+    outline: none;
 }
 
 .search-form {
@@ -99,6 +100,7 @@ ul {
     background-color: #DACABF;
     margin-left: 2px;
     height: 25px;
+    outline: none;
 }
 
 .items {
