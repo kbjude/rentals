@@ -237,6 +237,7 @@ ul {
     border-top: 1px solid #151515;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 13px;
 }
 
 .ft-block2 {
@@ -248,6 +249,7 @@ ul {
     border-top: 1px solid #151515;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 13px;
 }
 
 .ft-item1 {
@@ -306,6 +308,7 @@ footer {
     display: flex;
     padding-left: 70px;
     width: 30%;
+    font-size: 13px;
 }
 
 .footer-title {
@@ -322,6 +325,7 @@ footer {
     margin-left: 40px;
     width: 30%;
     text-align: center;
+    font-size: 13px;
 }
 
 .contacts {
@@ -332,6 +336,7 @@ footer {
 .footer-blk3 {
     width: 30%;
     text-align: center;
+    font-size: 13px;
 }
 
 .footer-lower {
