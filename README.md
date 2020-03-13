@@ -26,6 +26,9 @@ This project is has been worked on as a solo project for the candidate tp show t
 
 - Github: [@kbjude](https://github.com/kbjude)
 
+# Original Design
+- Mathew Njuguna and others on Behance
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
