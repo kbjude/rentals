@@ -402,9 +402,49 @@ footer {
         align-self: center;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 769px) {
-     {
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    nav {
+        flex-direction: row;
+    }
+    .description,
+    .center-block {
+        display: none;
+    }
 
-  }
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .center-search {
+        display: inline-block;
+        align-self: center;
+        width: 60%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .search-btn {
+        width: 25%;
+        background-color: rgb(147, 178, 224);
+    }
+
+    .system-manual {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .icon,
+    .search-titles {
+        text-align: center;
+    }
+
+    .house-search{
+        width: 100%;
+        padding: 8px;
+    }
+    
+}
