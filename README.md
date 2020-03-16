@@ -10,7 +10,7 @@ This project is has been worked on as a solo project for the candidate tp show t
 
 ## Live Demo
 
-[Live Demo Link](https://kbjude.github.io/rentals/)
+[Live Demo Link](https://raw.githack.com/kbjude/rentals/index/index.html)
 
 
 ###  Prerequisites
