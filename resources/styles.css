@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
 }
 
 nav {
@@ -280,7 +280,6 @@ ul {
     border-radius: 20px;
     border: 1px solid #151515;
     background-color: black;
-    
 }
 
 .home1 {
@@ -298,10 +297,11 @@ footer {
 .footer-title {
     color: white;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .footer-search-btn {
-    background-color: #444444;
+    background-color: #cea8a8;
     color: white;
 }
 
@@ -314,10 +314,6 @@ footer {
     padding-left: 70px;
     width: 30%;
     font-size: 13px;
-}
-
-.footer-title {
-    padding-bottom: 15px;
 }
 
 .search-ft {
@@ -334,7 +330,7 @@ footer {
 }
 
 .contacts {
-    color: #ACACAC;
+    color: #acacac;
     font-size: 10px;
 }
 
@@ -368,18 +364,17 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    
     nav {
         flex-direction: column;
     }
 
-    .description, 
+    .description,
     .mid-section,
     .lower-section,
     footer {
         display: none;
     }
-
+    
     .nav-blocks,
     .center-div {
         width: 100%;
@@ -419,13 +414,13 @@ footer {
     .steps {
         align-self: center;
     }
-
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     nav {
         flex-direction: row;
     }
+
     .description,
     .center-block {
         display: none;
@@ -460,12 +455,12 @@ footer {
         text-align: center;
     }
 
-    .house-search{
+    .house-search {
         width: 100%;
         padding: 8px;
     }
 
-    .ft-block1, 
+    .ft-block1,
     .ft-block2 {
         font-size: 10px;
     }
@@ -477,6 +472,5 @@ footer {
 
     .search-point {
         font-size: 20px;
-    }
-    
+    }   
 }
