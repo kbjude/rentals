@@ -22,7 +22,6 @@ This project is has been worked on as a solo project for the candidate tp show t
 ### . Usage
   - Open the index.html file and you are good to go.
 ## Authors
-  - 
 👤 Jude Kajura
 
 - Github: [@kbjude](https://github.com/kbjude/rentals/pull/1)
