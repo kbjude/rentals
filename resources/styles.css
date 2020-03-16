@@ -1,15 +1,15 @@
 * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:white;
-    background-color: #D45749;
+    color: white;
+    background-color: #d45749;
     height: 60px;
 }
 
@@ -35,10 +35,10 @@ nav {
 
 .nav-button {
     display: flex;
-    background-color: #063ECA;
+    background-color: #063eca;
     border: 0;
     border-radius: 20px;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 13px;
     padding: 8px;
     justify-content: space-around;
@@ -67,7 +67,7 @@ ul {
     border-radius: 30px;
     height: 55px;
     width: 55px;
-    background-color: #0057FF;
+    background-color: #0057ff;
     margin-left: 20px;
 }
 
@@ -86,6 +86,7 @@ ul {
     background-color: rgba(128, 127, 127, 0.582);
     border-radius: 10px;
     width: 36%;
+    margin-left: 32%;
 }
 
 .wip-blocks {
@@ -96,6 +97,7 @@ ul {
     color: white;
     font-size: 20px;
 }
+
 .center-div {
     background-image: url(./images/architecture-beautiful-home-building-class-280229.jpg);
     border: 1px solid transparent;
@@ -110,12 +112,8 @@ ul {
     text-align: center;
 }
 
-.center-search {
-    margin-left: 32%;
-}
-
 .search-btn {
-    background-color: #D45648;
+    background-color: #d45648;
     color: white;
     text-align: center;
     border: 0;
@@ -143,7 +141,7 @@ ul {
 }
 
 .steps {
-    background-color: #CCD0D7;
+    background-color: #ccd0d7;
     padding: 10px;
     border-radius: 4px;
     font-size: 12px;
@@ -203,19 +201,19 @@ ul {
 }
 
 .mid2 {
-    background: #98A4A5;
+    background: #98a4a5;
 }
 
 .mid1 {
-    background-color: #E27F66;
+    background-color: #e27f66;
 }
 
 .mid3 {
-    background-color: #509BD7;
+    background-color: #509bd7;
 }
 
 .btn1 {
-    color: #E27F66;
+    color: #e27e66;
     padding: 4px;
     border-radius: 4px;
     border: none;
@@ -374,7 +372,7 @@ footer {
     footer {
         display: none;
     }
-    
+
     .nav-blocks,
     .center-div {
         width: 100%;
@@ -472,5 +470,5 @@ footer {
 
     .search-point {
         font-size: 20px;
-    }   
+    }
 }
