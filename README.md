@@ -10,7 +10,7 @@ This project is has been worked on as a solo project for the candidate tp show t
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://github.com/kbjude/rentals/pull/1)
 
 
 ###  Prerequisites
@@ -24,7 +24,7 @@ This project is has been worked on as a solo project for the candidate tp show t
   - 
 👤 Jude Kajura
 
-- Github: [@kbjude](https://kbjude.github.io/rentals/.)
+- Github: [@kbjude]()
 
 # Original Design
 - Mathew Njuguna and others on Behance
