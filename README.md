@@ -16,8 +16,9 @@ This project is has been worked on as a solo project for the candidate tp show t
 ###  Prerequisites
   - Have any browser that supports HTML5 and CSS#
 ### Install
-  - With the browser set, you do not need to install any other thing
-  - Clone the files to your local drive.
+  - Download any browser of your choice that supports HTML5 and CSS3
+  - Install it on your compuetr and make sure it is working.
+  - Move to the live link of this projec and click on it to ran.
 ### . Usage
   - Open the index.html file and you are good to go.
 ## Authors
