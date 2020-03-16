@@ -24,7 +24,7 @@ This project is has been worked on as a solo project for the candidate tp show t
   - 
 👤 Jude Kajura
 
-- Github: [@kbjude](https://github.com/kbjude)
+- Github: [@kbjude](https://kbjude.github.io/rentals/.)
 
 # Original Design
 - Mathew Njuguna and others on Behance
