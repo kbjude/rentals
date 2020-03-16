@@ -94,6 +94,7 @@ ul {
 
 .title-center {
     color: white;
+    font-size: 20px;
 }
 .center-div {
     background-image: url(./images/architecture-beautiful-home-building-class-280229.jpg);
@@ -171,7 +172,7 @@ ul {
 
 .search-titles {
     color: red;
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
@@ -472,6 +473,10 @@ footer {
     .footer-middle,
     .footer-lower {
         display: none;
+    }
+
+    .search-point {
+        font-size: 20px;
     }
     
 }
