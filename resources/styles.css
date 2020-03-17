@@ -366,10 +366,7 @@ footer {
         flex-direction: column;
     }
 
-    .description,
-    .mid-section,
-    .lower-section,
-    footer {
+    .description {
         display: none;
     }
 
@@ -411,6 +408,31 @@ footer {
 
     .steps {
         align-self: center;
+    }
+
+    .icon,
+    .search-titles {
+        text-align: center;
+    }
+
+    .system-manual {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .house-search {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .ft-block1,
+    .ft-block2 {
+        font-size: 8px;
+    }
+
+    .footer-middle,
+    .footer-lower {
+        display: none;
     }
 }
 
