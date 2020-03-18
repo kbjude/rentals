@@ -191,6 +191,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 9px;
+    align-items: center;
 }
 
 .btn2 {
@@ -362,8 +363,12 @@ footer {
 }
 
 .mid-block-mid {
-    flex-direction: row;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.house-search>div {
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -437,6 +442,7 @@ footer {
     .ft-block1,
     .ft-block2 {
         font-size: 8px;
+        width: 100%;
     }
 
     .footer-middle,
@@ -446,11 +452,13 @@ footer {
 
     .footer-top {
         display: flex;
+        flex-direction: column;
     }
 
     .mid-block-mid {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
 }
 
@@ -513,7 +521,8 @@ footer {
     }
 
     .mid-block-mid {
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
 }
