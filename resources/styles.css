@@ -361,6 +361,11 @@ footer {
     color: white;
 }
 
+.mid-block-mid {
+    flex-direction: row;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -420,6 +425,10 @@ footer {
         width: 100%;
     }
 
+    .subtittles {
+        width: auto;
+    }
+
     .house-search {
         width: 100%;
         padding: 8px;
@@ -433,6 +442,15 @@ footer {
     .footer-middle,
     .footer-lower {
         display: none;
+    }
+
+    .footer-top {
+        display: flex;
+    }
+
+    .mid-block-mid {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -492,5 +510,10 @@ footer {
 
     .search-point {
         font-size: 20px;
+    }
+
+    .mid-block-mid {
+        flex-direction: row;
+        text-align: center;
     }
 }
