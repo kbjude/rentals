@@ -1,7 +1,7 @@
 # rentals
 ![screenshot](./resources/Screenshot.png)
 
-This project is has been worked on as a solo project for the candidate tp show their ability around the general technologies of HTML.
+This is a solo project for the candidate to show their ability around the general technologies of HTML.
 
 ## Built With
 
