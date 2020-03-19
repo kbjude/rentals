@@ -10,7 +10,7 @@ This is a solo project for the candidate to show their ability around the genera
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kbjude/rentals/index/index.html)
+[Live Demo Link](https://kbjude.github.io/rentals/)
 
 
 ###  Prerequisites
