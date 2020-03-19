@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./resources/style.css">
+    <script src="https://kit.fontawesome.com/edb362f252.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-search">
+        <div class="logo">
+           HouseFinder 
+        </div>
+        <div class="center-block">
+            <ul class="nav-blocks">
+
+            </ul>
+        </div>
+        <div class="nav-blocks">
+            <div class="nav-icon">
+               <a href=""> <i class="fas fa-search"></i> <span>Houses</span></a>
+            </div>
+            <div class="nav-icon">
+                <a href=""><i class="far fa-user"></i> ABOUT</a>
+            </div>
+            <div class="nav-icon">
+                <a href=""><i class="fas fa-rss"></i> BLOG</a>
+            </div>
+            <div class="nav-icon">
+                <a href=""><i class="fas fa-align-justify"></i> More</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="search">
+            <form action="post">
+                <section class="main-sect">
+                    <h3 class="main-h">Filter by name, type, county, owner, street:</h3>
+                    <div class="items">
+                        <div>
+                            <p>House Name</p>
+                            <input id="name" type="text" value="" name="name" class="form-item">
+                        </div>
+                        <div>
+                            <p>Type</p>
+                            <select class="form-item">
+                                <option value=""> Makindye</option>
+                                <option value=""> Soweto</option>
+                                <option value=""> Luwero</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>County</p>
+                            <select class="form-item">
+                                <option value=""> Makindye</option>
+                                <option value=""> Soweto</option>
+                                <option value=""> Luwero</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Street</p>
+                            <select class="form-item">
+                                <option value=""> Makindye</option>
+                                <option value=""> Soweto</option>
+                                <option value=""> Luwero</option>
+                            </select>
+                        </div>
+                        <div class="last">
+                            <button class="submit">Search</button>
+                            <button class="reset">Clear Filter</button>
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
