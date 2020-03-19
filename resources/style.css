@@ -2,8 +2,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:white;
-    background-color: #D45749;
+    color: white;
+    background-color: #d45749;
     height: 60px;
 }
 
@@ -29,10 +29,10 @@ nav {
 
 .nav-button {
     display: flex;
-    background-color: #063ECA;
+    background-color: #063eca;
     border: 0;
     border-radius: 20px;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 13px;
     padding: 8px;
     justify-content: space-around;
@@ -53,7 +53,7 @@ ul {
 }
 
 .search-btn {
-    background-color: #D45648;
+    background-color: #d45648;
     color: white;
     text-align: center;
     border: 0;
@@ -87,17 +87,17 @@ ul {
 }
 
 .main-sect {
-    background-color: #EEEEEE;
+    background-color: #eee;
 }
 
 .submit {
-    background-color: #71839F;
+    background-color: #71839f;
     margin-left: 2px;
     height: 25px;
 }
 
 .reset {
-    background-color: #DACABF;
+    background-color: #dacabf;
     margin-left: 2px;
     height: 25px;
     outline: none;
@@ -105,20 +105,14 @@ ul {
 
 .items {
     display: flex;
-    background-color: #EEEEEE;
+    background-color: #eee;
     padding: 30px;
     align-self: center;
-    padding-left:  320px;
+    padding-left: 320px;
 }
 
 .name {
     padding: 40px;
-}
-
-
-.form-item {
-    font-size: 20px;
-    padding-left: 2px;
 }
 
 .main-h {
@@ -128,5 +122,52 @@ ul {
 .last {
     height: 30px;
     margin: 48px;
+}
 
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .items {
+        flex-direction: column;
+        padding-left: 20px;
+        margin-left: 30%;
+    }
+
+    .last {
+        padding-top: 9px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .items {
+        flex-direction: column;
+        padding-left: 20px;
+        margin-left: 30%;
+    }
+
+    .last {
+        padding-top: 9px;
+        margin: 0;
+    }
 }
