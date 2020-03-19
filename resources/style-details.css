@@ -88,9 +88,9 @@ ul {
         flex-direction: column;
     }
 
-    .result-imgs {
-        margin: 0;
-        margin-left: 0;
+    .result-img {
+        margin: 8% 0;
+        width: 100%;
     }
 }
 
