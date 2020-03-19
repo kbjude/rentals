@@ -139,7 +139,8 @@ ul {
     .items {
         flex-direction: column;
         padding-left: 20px;
-        margin-left: 30%;
+        margin-left: 10%;
+        width: 100%;
     }
 
     .last {

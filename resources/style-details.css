@@ -76,3 +76,37 @@ ul {
     padding: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .image-rslt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result-imgs {
+        margin: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .image-rslt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result-imgs {
+        margin: 0;
+        margin-left: 0;
+    }
+}
