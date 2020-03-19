@@ -1,0 +1,174 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #d45749;
+    height: 60px;
+}
+
+.nav-icon {
+    display: flex;
+    padding-right: 20px;
+}
+
+.nav-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icon a:hover {
+    color: gray;
+}
+
+.nav-icon1 {
+    margin-right: 20px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.nav-button {
+    display: flex;
+    background-color: #063eca;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px;
+    justify-content: space-around;
+    width: 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-btn {
+    background-color: #d45648;
+    color: white;
+    text-align: center;
+    border: 0;
+    margin-left: 0;
+    width: auto;
+    outline: none;
+}
+
+.search-form {
+    display: flex;
+    justify-content: unset;
+    height: 30px;
+}
+
+.search {
+    width: 100%;
+}
+
+.search-title {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.form-cent {
+    padding: 45px;
+}
+
+.form-item {
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.main-sect {
+    background-color: #eee;
+}
+
+.submit {
+    background-color: #71839f;
+    margin-left: 2px;
+    height: 25px;
+}
+
+.reset {
+    background-color: #dacabf;
+    margin-left: 2px;
+    height: 25px;
+    outline: none;
+}
+
+.items {
+    display: flex;
+    background-color: #eee;
+    padding: 30px;
+    align-self: center;
+    padding-left: 320px;
+}
+
+.name {
+    padding: 40px;
+}
+
+.main-h {
+    text-align: center;
+}
+
+.last {
+    height: 30px;
+    margin: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .items {
+        flex-direction: column;
+        padding-left: 20px;
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .last {
+        padding-top: 9px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .nav-blocks,
+    .center-div {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .items {
+        flex-direction: column;
+        padding-left: 20px;
+        margin-left: 30%;
+    }
+
+    .last {
+        padding-top: 9px;
+        margin: 0;
+    }
+}
